@@ -1,0 +1,27 @@
+body {
+font-family: Arial;
+max-width: 400px;
+margin: auto;
+padding-top: 50px;
+}
+
+input {
+width: 100%;
+padding: 8px;
+margin: 5px 0;
+}
+
+button {
+padding: 8px 12px;
+margin-top: 10px;
+}
+
+ul {
+padding: 0;
+}
+
+li {
+list-style: none;
+padding: 5px;
+border-bottom: 1px solid #ddd;
+}

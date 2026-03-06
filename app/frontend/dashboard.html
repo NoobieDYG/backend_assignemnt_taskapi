@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h2>Dashboard</h2>
+
+<button onclick="logout()">Logout</button>
+
+<h3>Create Task</h3>
+
+<form id="taskForm">
+    <input type="text" id="taskTitle" placeholder="Task title" required>
+    <input type="text" id="taskDescription" placeholder="Task description" required><br>
+    <button type="submit">Create Task</button>
+</form>
+
+<h3>Your Tasks</h3>
+
+<ul id="taskList"></ul>
+
+<p id="taskMessage"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
