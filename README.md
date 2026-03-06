@@ -1,4 +1,4 @@
-# 🗂️ Task Management API (Backend Assignemt for Primetrade.ai )
+# 🗂️ Task Management API (Backend Assignment for Primetrade.ai )
 
 A production-style **Task Management REST API** built with **FastAPI**, **PostgreSQL**, and **JWT authentication**. Designed to demonstrate backend engineering best practices including dependency injection, role-based authorization, secure authentication, and database session management.
 
