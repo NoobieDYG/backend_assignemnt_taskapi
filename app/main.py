@@ -25,4 +25,4 @@ def health_check():
 def admin_check(user=Depends(get_admin_user)):
     return {"Message":f"Welcome admin {user['user_id']}"}
 app.include_router(auth_router.router, prefix="/api/v1")
-app.include_router(task_router.router)
+app.include_router(task_router.router, prefix="/api/v1")
